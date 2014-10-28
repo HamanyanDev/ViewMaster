@@ -73,11 +73,6 @@
 		FD0AFDEA19F616AF00F7A41C /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFDE119F616AF00F7A41C /* grayArrow@2x.png */; };
 		FD0AFDEB19F616AF00F7A41C /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFDE219F616AF00F7A41C /* whiteArrow.png */; };
 		FD0AFDEC19F616AF00F7A41C /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFDE319F616AF00F7A41C /* whiteArrow@2x.png */; };
-		FD0AFEFB19F7997F00F7A41C /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFEF219F7997F00F7A41C /* RECommonFunctions.m */; };
-		FD0AFEFC19F7997F00F7A41C /* REMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFEF419F7997F00F7A41C /* REMenu.m */; };
-		FD0AFEFD19F7997F00F7A41C /* REMenuContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFEF619F7997F00F7A41C /* REMenuContainerView.m */; };
-		FD0AFEFE19F7997F00F7A41C /* REMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFEF819F7997F00F7A41C /* REMenuItem.m */; };
-		FD0AFEFF19F7997F00F7A41C /* REMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFEFA19F7997F00F7A41C /* REMenuItemView.m */; };
 		FD269C1419FF39E90057F2DC /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C0F19FF39E90057F2DC /* WebViewController.m */; };
 		FD269C1519FF39E90057F2DC /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C1019FF39E90057F2DC /* WebViewController.xib */; };
 		FD269C1619FF39E90057F2DC /* ZeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C1219FF39E90057F2DC /* ZeroViewController.m */; };
@@ -115,6 +110,11 @@
 		FD269C7319FF409C0057F2DC /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C7219FF409C0057F2DC /* FirstViewController.xib */; };
 		FD269C7919FF41FD0057F2DC /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C7619FF41FD0057F2DC /* JASidePanelController.m */; };
 		FD269C7A19FF41FD0057F2DC /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C7819FF41FD0057F2DC /* UIViewController+JASidePanel.m */; };
+		FD269C9719FF5BC60057F2DC /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C8E19FF5BC60057F2DC /* RECommonFunctions.m */; };
+		FD269C9819FF5BC60057F2DC /* REMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C9019FF5BC60057F2DC /* REMenu.m */; };
+		FD269C9919FF5BC60057F2DC /* REMenuContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C9219FF5BC60057F2DC /* REMenuContainerView.m */; };
+		FD269C9A19FF5BC60057F2DC /* REMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C9419FF5BC60057F2DC /* REMenuItem.m */; };
+		FD269C9B19FF5BC60057F2DC /* REMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C9619FF5BC60057F2DC /* REMenuItemView.m */; };
 		FD9F219019DD12210094C4A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD9F219219DD12210094C4A5 /* Localizable.strings */; };
 		FD9F219519DD2B950094C4A5 /* CreateFolderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9F219719DD2B950094C4A5 /* CreateFolderViewController.xib */; };
 /* End PBXBuildFile section */
@@ -200,16 +200,6 @@
 		FD0AFDE119F616AF00F7A41C /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
 		FD0AFDE219F616AF00F7A41C /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
 		FD0AFDE319F616AF00F7A41C /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
-		FD0AFEF119F7997F00F7A41C /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
-		FD0AFEF219F7997F00F7A41C /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
-		FD0AFEF319F7997F00F7A41C /* REMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenu.h; sourceTree = "<group>"; };
-		FD0AFEF419F7997F00F7A41C /* REMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenu.m; sourceTree = "<group>"; };
-		FD0AFEF519F7997F00F7A41C /* REMenuContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuContainerView.h; sourceTree = "<group>"; };
-		FD0AFEF619F7997F00F7A41C /* REMenuContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuContainerView.m; sourceTree = "<group>"; };
-		FD0AFEF719F7997F00F7A41C /* REMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItem.h; sourceTree = "<group>"; };
-		FD0AFEF819F7997F00F7A41C /* REMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItem.m; sourceTree = "<group>"; };
-		FD0AFEF919F7997F00F7A41C /* REMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItemView.h; sourceTree = "<group>"; };
-		FD0AFEFA19F7997F00F7A41C /* REMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItemView.m; sourceTree = "<group>"; };
 		FD269C0E19FF39E90057F2DC /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = Classes/ViewController/WebViewController.h; sourceTree = "<group>"; };
 		FD269C0F19FF39E90057F2DC /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = Classes/ViewController/WebViewController.m; sourceTree = "<group>"; };
 		FD269C1019FF39E90057F2DC /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WebViewController.xib; path = Classes/ViewController/WebViewController.xib; sourceTree = "<group>"; };
@@ -273,6 +263,16 @@
 		FD269C7719FF41FD0057F2DC /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JASidePanel.h"; path = "library/Source/UIViewController+JASidePanel.h"; sourceTree = SOURCE_ROOT; };
 		FD269C7819FF41FD0057F2DC /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JASidePanel.m"; path = "library/Source/UIViewController+JASidePanel.m"; sourceTree = SOURCE_ROOT; };
 		FD269C8B19FF59280057F2DC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = Classes/ViewController/FirstViewController.h; sourceTree = "<group>"; };
+		FD269C8D19FF5BC60057F2DC /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		FD269C8E19FF5BC60057F2DC /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		FD269C8F19FF5BC60057F2DC /* REMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenu.h; sourceTree = "<group>"; };
+		FD269C9019FF5BC60057F2DC /* REMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenu.m; sourceTree = "<group>"; };
+		FD269C9119FF5BC60057F2DC /* REMenuContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuContainerView.h; sourceTree = "<group>"; };
+		FD269C9219FF5BC60057F2DC /* REMenuContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuContainerView.m; sourceTree = "<group>"; };
+		FD269C9319FF5BC60057F2DC /* REMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItem.h; sourceTree = "<group>"; };
+		FD269C9419FF5BC60057F2DC /* REMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItem.m; sourceTree = "<group>"; };
+		FD269C9519FF5BC60057F2DC /* REMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItemView.h; sourceTree = "<group>"; };
+		FD269C9619FF5BC60057F2DC /* REMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItemView.m; sourceTree = "<group>"; };
 		FD2CE6E219EDF9D500963174 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/CreateFolderViewController.xib; sourceTree = "<group>"; };
 		FD2CE6E319EDF9D500963174 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FD2CE6E419EDF9D500963174 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -462,7 +462,7 @@
 		FD0AFE1019F645B100F7A41C /* library */ = {
 			isa = PBXGroup;
 			children = (
-				FD0AFEF019F7997F00F7A41C /* REMenu */,
+				FD269C8C19FF5BC60057F2DC /* REMenu */,
 				FD0AFE3119F7460300F7A41C /* Source */,
 				FD0AFDD619F616AF00F7A41C /* EGOTableViewPullRefresh */,
 			);
@@ -582,22 +582,22 @@
 			name = ReMenuView;
 			sourceTree = "<group>";
 		};
-		FD0AFEF019F7997F00F7A41C /* REMenu */ = {
+		FD269C8C19FF5BC60057F2DC /* REMenu */ = {
 			isa = PBXGroup;
 			children = (
-				FD0AFEF119F7997F00F7A41C /* RECommonFunctions.h */,
-				FD0AFEF219F7997F00F7A41C /* RECommonFunctions.m */,
-				FD0AFEF319F7997F00F7A41C /* REMenu.h */,
-				FD0AFEF419F7997F00F7A41C /* REMenu.m */,
-				FD0AFEF519F7997F00F7A41C /* REMenuContainerView.h */,
-				FD0AFEF619F7997F00F7A41C /* REMenuContainerView.m */,
-				FD0AFEF719F7997F00F7A41C /* REMenuItem.h */,
-				FD0AFEF819F7997F00F7A41C /* REMenuItem.m */,
-				FD0AFEF919F7997F00F7A41C /* REMenuItemView.h */,
-				FD0AFEFA19F7997F00F7A41C /* REMenuItemView.m */,
+				FD269C8D19FF5BC60057F2DC /* RECommonFunctions.h */,
+				FD269C8E19FF5BC60057F2DC /* RECommonFunctions.m */,
+				FD269C8F19FF5BC60057F2DC /* REMenu.h */,
+				FD269C9019FF5BC60057F2DC /* REMenu.m */,
+				FD269C9119FF5BC60057F2DC /* REMenuContainerView.h */,
+				FD269C9219FF5BC60057F2DC /* REMenuContainerView.m */,
+				FD269C9319FF5BC60057F2DC /* REMenuItem.h */,
+				FD269C9419FF5BC60057F2DC /* REMenuItem.m */,
+				FD269C9519FF5BC60057F2DC /* REMenuItemView.h */,
+				FD269C9619FF5BC60057F2DC /* REMenuItemView.m */,
 			);
 			name = REMenu;
-			path = "../★OPEN_LIBRARY/REMenu-master/REMenu";
+			path = library/REMenu;
 			sourceTree = "<group>";
 		};
 		FD33E01919FE221800C2A16A /* SectionView */ = {
@@ -846,24 +846,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD269C1619FF39E90057F2DC /* ZeroViewController.m in Sources */,
+				FD269C9B19FF5BC60057F2DC /* REMenuItemView.m in Sources */,
 				FD269C5419FF3DBC0057F2DC /* NavigationViewController.m in Sources */,
+				FD269C9A19FF5BC60057F2DC /* REMenuItem.m in Sources */,
 				FD269C6419FF3F1E0057F2DC /* DeleteView.m in Sources */,
 				FD269C6D19FF404E0057F2DC /* FirstFirstViewController.m in Sources */,
 				2E4ACFE319C9B932000E9726 /* main.m in Sources */,
 				FD269C7919FF41FD0057F2DC /* JASidePanelController.m in Sources */,
-				FD0AFEFF19F7997F00F7A41C /* REMenuItemView.m in Sources */,
 				FD269C4319FF3D400057F2DC /* QuickLookViewController.m in Sources */,
 				FD269C3E19FF3D200057F2DC /* EGOlibraryViewController.m in Sources */,
-				FD0AFEFB19F7997F00F7A41C /* RECommonFunctions.m in Sources */,
-				FD0AFEFC19F7997F00F7A41C /* REMenu.m in Sources */,
 				FD269C4D19FF3DA20057F2DC /* ReMenuViewController.m in Sources */,
 				FD269C7A19FF41FD0057F2DC /* UIViewController+JASidePanel.m in Sources */,
 				FD269C1419FF39E90057F2DC /* WebViewController.m in Sources */,
 				FD269C3219FF3CCE0057F2DC /* ViewMasterAppDelegate.m in Sources */,
-				FD0AFEFE19F7997F00F7A41C /* REMenuItem.m in Sources */,
 				FD269C3D19FF3D200057F2DC /* EGOlibraryTableViewController.m in Sources */,
-				FD0AFEFD19F7997F00F7A41C /* REMenuContainerView.m in Sources */,
 				FD269C2919FF3C6B0057F2DC /* FileManageHelp.m in Sources */,
+				FD269C9919FF5BC60057F2DC /* REMenuContainerView.m in Sources */,
 				FD269C3619FF3CF80057F2DC /* FBTableViewController.m in Sources */,
 				FD269C7119FF40780057F2DC /* EditViewController.m in Sources */,
 				FD269C2119FF3C130057F2DC /* FirstViewController.m in Sources */,
@@ -874,9 +872,11 @@
 				FD269C1F19FF3ABF0057F2DC /* CreateFolderViewController.m in Sources */,
 				FD269C2A19FF3C6B0057F2DC /* ForAlertDialog.m in Sources */,
 				FD269C2819FF3C6B0057F2DC /* CommonUtil.m in Sources */,
+				FD269C9819FF5BC60057F2DC /* REMenu.m in Sources */,
 				FD269C2E19FF3CA10057F2DC /* SectionTableViewController.m in Sources */,
 				FD269C6819FF3F630057F2DC /* SnoopyViewController.m in Sources */,
 				FD269C4819FF3D6D0057F2DC /* ForthViewController.m in Sources */,
+				FD269C9719FF5BC60057F2DC /* RECommonFunctions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
