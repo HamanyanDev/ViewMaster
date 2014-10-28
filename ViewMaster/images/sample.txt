@@ -1,0 +1,32 @@
+
+・Direct connect 設定方法
+         phone>##3282# > More > Direct connect > Edit > 000000 > Registration > Qchat enabled > Enable/ Disable
+
+
+・インストール
+　About phone ＞ Bildnumber連打＞USBデバッキングON＞cmd: abd install ドラッグ　
+debac
+
+
+■レスキュー起動
+　ボリュームダウンと電源長押し　すぐ上
+
+
+■RTN
+＃＃786#
+
+
+
+0   OFF   FALSE  Disable
+1   ON    TRUE   Enable
+
+
+
+
+
+
+
+
+
+
+

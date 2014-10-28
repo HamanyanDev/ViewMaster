@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  ViewMaster
+
+  Created by tvt on 2014/10/02.
+  Copyright (c) 2014年 HiroyukiHamana. All rights reserved.
+*/
+"H_TITLE_FIRST" = "English_Top!!";
+
+"H_TITLE_SECOND" = "SecondView";
+"H_TITLE_THIRD" = "ThirdView";
+"H_BUTTON_BACK" = "Back";
+"H_BUTTON_SAVE" = "Save";
+"H_BUTTON_DONE" = "Done";
+"H_BUTTON_CANCEL" = "Cancel";
+"H_BUTTON_EDIT" = "Edit";
