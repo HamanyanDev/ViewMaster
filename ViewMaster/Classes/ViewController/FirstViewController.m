@@ -75,6 +75,15 @@
     
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    
+    self.navigationController.navigationBar.hidden = NO;
+    
+    [self.navigationController setToolbarHidden:YES animated:NO];       //Bottombarを非表示
+    
+}
+
+
 #pragma mark - UITableViewDataSource
 
 

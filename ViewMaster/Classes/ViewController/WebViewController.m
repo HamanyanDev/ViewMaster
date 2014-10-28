@@ -192,72 +192,69 @@
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.docx" ofType:nil]];
             break;
         case 6:
-            urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sampleA.png" ofType:nil]];
+            urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.rtf" ofType:nil]];
             break;
         case 7:
-            urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.rtf" ofType:nil]];
-            break;
-        case 8:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.txt" ofType:nil]];
             break;
-        case 9:
+        case 8:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample_pass.pdf" ofType:nil]];
             break;
-        case 10:
+        case 9:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.broken" ofType:nil]];
             break;
-        case 11:
+        case 10:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.ppt" ofType:nil]];
             break;
-        case 12:
+        case 11:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.pptx" ofType:nil]];
             break;
-        case 13:
+        case 12:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.gif" ofType:nil]];
             break;
-        case 14:
+        case 13:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.jpe" ofType:nil]];
             break;
-        case 15:
+        case 14:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.jpg" ofType:nil]];
             break;
-        case 16:
+        case 15:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.gif" ofType:nil]];
             break;
-        case 17:
+        case 16:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.tiff" ofType:nil]];
             break;
-        case 18:
+        case 17:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.tif" ofType:nil]];
             break;
-        case 19:
+        case 18:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.csv" ofType:nil]];
             break;
-        case 20:
+        case 19:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"samplea.numbers" ofType:nil]];
             break;
-        case 21:
+        case 20:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.pages" ofType:nil]];
             break;
-        case 22:
+        case 21:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"samplea.numbers.zip" ofType:nil]];
             break;
-        case 23:
+        case 22:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.pages.zip" ofType:nil]];
             break;
-        case 24:
+        case 23:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.key" ofType:nil]];
             break;
-        case 25:
+        case 24:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.key.zip" ofType:nil]];
             break;
-        case 26:
+        case 25:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.rtf" ofType:nil]];
             break;
-        case 27:
+        case 26:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.rtfd.zip" ofType:nil]];
             break;
-        case 28:
+        case 27:
             urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sample.rtfd" ofType:nil]];
             break;
             
@@ -305,6 +302,9 @@
     [self.navigationController setToolbarHidden:NO animated:YES];      //Toolbar表示
     
 }
+
+
+
 
 - (void) EditButtonTap {
     
