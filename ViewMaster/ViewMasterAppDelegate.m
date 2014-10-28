@@ -7,16 +7,27 @@
 //
 
 #import "ViewMasterAppDelegate.h"
+#import "FirstViewController.h"
+#import "NavigationViewController.h"
+#import "HomeViewController.h"
 
 @implementation ViewMasterAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UIViewController *Con = [[FirstViewController alloc] init];    //初期画面を設定
+    
+    UINavigationController *navCon = [[UINavigationController alloc] initWithRootViewController:Con]; //初期画面にひもづけたNavigationの生成
+    self.viewController = navCon;
+    
+    self.window.rootViewController = self.viewController;
+//    self.window.rootViewController = [[NavigationViewController alloc] initWithRootViewController:[[HomeViewController alloc] init]];
+    
     [self.window makeKeyAndVisible];
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
