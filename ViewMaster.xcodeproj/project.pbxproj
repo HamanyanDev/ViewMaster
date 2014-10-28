@@ -7,26 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E15DD1519E15AE300A29E82 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E15DD1319E15AE300A29E82 /* ForthViewController.m */; };
-		2E15DD1819E15B2D00A29E82 /* ForthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E15DD1719E15B2D00A29E82 /* ForthViewController.storyboard */; };
 		2E4ACFD719C9B932000E9726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4ACFD619C9B932000E9726 /* Foundation.framework */; };
 		2E4ACFD919C9B932000E9726 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4ACFD819C9B932000E9726 /* CoreGraphics.framework */; };
 		2E4ACFDB19C9B932000E9726 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4ACFDA19C9B932000E9726 /* UIKit.framework */; };
 		2E4ACFE119C9B932000E9726 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E4ACFDF19C9B932000E9726 /* InfoPlist.strings */; };
 		2E4ACFE319C9B932000E9726 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4ACFE219C9B932000E9726 /* main.m */; };
-		2E4ACFE719C9B932000E9726 /* ViewMasterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4ACFE619C9B932000E9726 /* ViewMasterAppDelegate.m */; };
 		2E4ACFE919C9B932000E9726 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4ACFE819C9B932000E9726 /* Images.xcassets */; };
 		2E4ACFF019C9B933000E9726 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4ACFEF19C9B933000E9726 /* XCTest.framework */; };
 		2E4ACFF119C9B933000E9726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4ACFD619C9B932000E9726 /* Foundation.framework */; };
 		2E4ACFF219C9B933000E9726 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4ACFDA19C9B932000E9726 /* UIKit.framework */; };
 		2E4ACFFA19C9B933000E9726 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E4ACFF819C9B933000E9726 /* InfoPlist.strings */; };
 		2E4ACFFC19C9B933000E9726 /* ViewMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4ACFFB19C9B933000E9726 /* ViewMasterTests.m */; };
-		2E4AD00B19C9BE47000E9726 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4AD00919C9BE47000E9726 /* FirstViewController.m */; };
-		2E4AD00C19C9BE47000E9726 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E4AD00A19C9BE47000E9726 /* FirstViewController.xib */; };
-		2E4AD01019C9D4B7000E9726 /* ZeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4AD00E19C9D4B7000E9726 /* ZeroViewController.m */; };
-		2E4AD01119C9D4B7000E9726 /* ZeroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E4AD00F19C9D4B7000E9726 /* ZeroViewController.xib */; };
-		2E4AD01519C9D8DF000E9726 /* FirstFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4AD01319C9D8DF000E9726 /* FirstFirstViewController.m */; };
-		2E4AD01619C9D8DF000E9726 /* FirstFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E4AD01419C9D8DF000E9726 /* FirstFirstViewController.xib */; };
 		FD0AFD6919F4BD5000F7A41C /* AddPage.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD5C19F4BD5000F7A41C /* AddPage.png */; };
 		FD0AFD6A19F4BD5000F7A41C /* AddPage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD5D19F4BD5000F7A41C /* AddPage@2x.png */; };
 		FD0AFD6B19F4BD5000F7A41C /* Dir.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD5E19F4BD5000F7A41C /* Dir.png */; };
@@ -73,8 +64,6 @@
 		FD0AFDB519F4BDC600F7A41C /* samplea.numbers in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD9419F4BDC600F7A41C /* samplea.numbers */; };
 		FD0AFDB619F4BDC600F7A41C /* samplea.numbers.zip in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD9519F4BDC600F7A41C /* samplea.numbers.zip */; };
 		FD0AFDD019F5FD7000F7A41C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0AFDCF19F5FD7000F7A41C /* QuartzCore.framework */; };
-		FD0AFDD419F5FF3900F7A41C /* EGOlibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFDD219F5FF3900F7A41C /* EGOlibraryViewController.m */; };
-		FD0AFDD519F5FF3900F7A41C /* EGOlibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFDD319F5FF3900F7A41C /* EGOlibraryViewController.xib */; };
 		FD0AFDE419F616AF00F7A41C /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFDDA19F616AF00F7A41C /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FD0AFDE519F616AF00F7A41C /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFDDC19F616AF00F7A41C /* blackArrow.png */; };
 		FD0AFDE619F616AF00F7A41C /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFDDD19F616AF00F7A41C /* blackArrow@2x.png */; };
@@ -84,39 +73,50 @@
 		FD0AFDEA19F616AF00F7A41C /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFDE119F616AF00F7A41C /* grayArrow@2x.png */; };
 		FD0AFDEB19F616AF00F7A41C /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFDE219F616AF00F7A41C /* whiteArrow.png */; };
 		FD0AFDEC19F616AF00F7A41C /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFDE319F616AF00F7A41C /* whiteArrow@2x.png */; };
-		FD0AFDEF19F61E6900F7A41C /* EGOlibraryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFDEE19F61E6900F7A41C /* EGOlibraryTableViewController.m */; };
-		FD0AFE3619F7460300F7A41C /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFE3319F7460300F7A41C /* JASidePanelController.m */; };
-		FD0AFE3719F7460300F7A41C /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFE3519F7460300F7A41C /* UIViewController+JASidePanel.m */; };
-		FD0AFE3B19F7466900F7A41C /* FBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFE3919F7466900F7A41C /* FBTableViewController.m */; };
-		FD0AFE3C19F7466900F7A41C /* FBTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFE3A19F7466900F7A41C /* FBTableViewController.xib */; };
-		FD0AFEEA19F7927100F7A41C /* ReMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFEE819F7927100F7A41C /* ReMenuViewController.m */; };
-		FD0AFEEB19F7927100F7A41C /* ReMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFEE919F7927100F7A41C /* ReMenuViewController.xib */; };
-		FD0AFEEF19F7979100F7A41C /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFEEE19F7979100F7A41C /* NavigationViewController.m */; };
 		FD0AFEFB19F7997F00F7A41C /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFEF219F7997F00F7A41C /* RECommonFunctions.m */; };
 		FD0AFEFC19F7997F00F7A41C /* REMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFEF419F7997F00F7A41C /* REMenu.m */; };
 		FD0AFEFD19F7997F00F7A41C /* REMenuContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFEF619F7997F00F7A41C /* REMenuContainerView.m */; };
 		FD0AFEFE19F7997F00F7A41C /* REMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFEF819F7997F00F7A41C /* REMenuItem.m */; };
 		FD0AFEFF19F7997F00F7A41C /* REMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFEFA19F7997F00F7A41C /* REMenuItemView.m */; };
-		FD0AFF0219F8997700F7A41C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFF0119F8997700F7A41C /* HomeViewController.m */; };
-		FD0AFF0519F89A5500F7A41C /* ActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFF0419F89A5500F7A41C /* ActivityView.m */; };
-		FD0AFF0819F8A10B00F7A41C /* DeleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFF0719F8A10B00F7A41C /* DeleteView.m */; };
-		FD0F7DA019ECE7CE003CC5B1 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0F7D9E19ECE7CE003CC5B1 /* WebViewController.m */; };
-		FD0F7DA119ECE7CE003CC5B1 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD0F7D9F19ECE7CE003CC5B1 /* WebViewController.xib */; };
-		FD2CE6E019EDF93300963174 /* QuickLookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2CE6DE19EDF93300963174 /* QuickLookViewController.m */; };
-		FD2CE6E119EDF93300963174 /* QuickLookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD2CE6DF19EDF93300963174 /* QuickLookViewController.xib */; };
-		FD2CE6E619EDF9EC00963174 /* SnoopyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD2CE6E819EDF9EC00963174 /* SnoopyViewController.xib */; };
-		FD2CE6EE19EE2B6D00963174 /* FileManageHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2CE6ED19EE2B6D00963174 /* FileManageHelp.m */; };
-		FD2CF2DF19CAF346005DC7C5 /* SnoopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2CF2DD19CAF346005DC7C5 /* SnoopyViewController.m */; };
-		FD33E01719FE221200C2A16A /* SectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD33E01519FE221200C2A16A /* SectionTableViewController.m */; };
-		FD33E01819FE221200C2A16A /* SectionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD33E01619FE221200C2A16A /* SectionTableViewController.xib */; };
-		FD33E01D19FE31BB00C2A16A /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD33E01B19FE31BB00C2A16A /* OneViewController.m */; };
-		FD33E01E19FE31BB00C2A16A /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD33E01C19FE31BB00C2A16A /* OneViewController.xib */; };
-		FD3E804319E21F5500AB37A6 /* ForAlertDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E804219E21F5500AB37A6 /* ForAlertDialog.m */; };
-		FD3E804619E227D300AB37A6 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E804519E227D300AB37A6 /* CommonUtil.m */; };
+		FD269C1419FF39E90057F2DC /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C0F19FF39E90057F2DC /* WebViewController.m */; };
+		FD269C1519FF39E90057F2DC /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C1019FF39E90057F2DC /* WebViewController.xib */; };
+		FD269C1619FF39E90057F2DC /* ZeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C1219FF39E90057F2DC /* ZeroViewController.m */; };
+		FD269C1719FF39E90057F2DC /* ZeroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C1319FF39E90057F2DC /* ZeroViewController.xib */; };
+		FD269C1B19FF3A720057F2DC /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C1919FF3A720057F2DC /* OneViewController.m */; };
+		FD269C1C19FF3A720057F2DC /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C1A19FF3A720057F2DC /* OneViewController.xib */; };
+		FD269C1F19FF3ABF0057F2DC /* CreateFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C1E19FF3ABF0057F2DC /* CreateFolderViewController.m */; };
+		FD269C2119FF3C130057F2DC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C2019FF3C130057F2DC /* FirstViewController.m */; };
+		FD269C2819FF3C6B0057F2DC /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C2319FF3C6B0057F2DC /* CommonUtil.m */; };
+		FD269C2919FF3C6B0057F2DC /* FileManageHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C2619FF3C6B0057F2DC /* FileManageHelp.m */; };
+		FD269C2A19FF3C6B0057F2DC /* ForAlertDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C2719FF3C6B0057F2DC /* ForAlertDialog.m */; };
+		FD269C2E19FF3CA10057F2DC /* SectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C2C19FF3CA10057F2DC /* SectionTableViewController.m */; };
+		FD269C2F19FF3CA10057F2DC /* SectionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C2D19FF3CA10057F2DC /* SectionTableViewController.xib */; };
+		FD269C3219FF3CCE0057F2DC /* ViewMasterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C3119FF3CCE0057F2DC /* ViewMasterAppDelegate.m */; };
+		FD269C3619FF3CF80057F2DC /* FBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C3419FF3CF80057F2DC /* FBTableViewController.m */; };
+		FD269C3719FF3CF80057F2DC /* FBTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C3519FF3CF80057F2DC /* FBTableViewController.xib */; };
+		FD269C3D19FF3D200057F2DC /* EGOlibraryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C3919FF3D200057F2DC /* EGOlibraryTableViewController.m */; };
+		FD269C3E19FF3D200057F2DC /* EGOlibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C3B19FF3D200057F2DC /* EGOlibraryViewController.m */; };
+		FD269C3F19FF3D200057F2DC /* EGOlibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C3C19FF3D200057F2DC /* EGOlibraryViewController.xib */; };
+		FD269C4319FF3D400057F2DC /* QuickLookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C4119FF3D400057F2DC /* QuickLookViewController.m */; };
+		FD269C4419FF3D400057F2DC /* QuickLookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C4219FF3D400057F2DC /* QuickLookViewController.xib */; };
+		FD269C4819FF3D6D0057F2DC /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C4619FF3D6D0057F2DC /* ForthViewController.m */; };
+		FD269C4919FF3D6D0057F2DC /* ForthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD269C4719FF3D6D0057F2DC /* ForthViewController.storyboard */; };
+		FD269C4D19FF3DA20057F2DC /* ReMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C4B19FF3DA20057F2DC /* ReMenuViewController.m */; };
+		FD269C4E19FF3DA20057F2DC /* ReMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C4C19FF3DA20057F2DC /* ReMenuViewController.xib */; };
+		FD269C5319FF3DBC0057F2DC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C5019FF3DBC0057F2DC /* HomeViewController.m */; };
+		FD269C5419FF3DBC0057F2DC /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C5219FF3DBC0057F2DC /* NavigationViewController.m */; };
+		FD269C6119FF3F0B0057F2DC /* ActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C6019FF3F0B0057F2DC /* ActivityView.m */; };
+		FD269C6419FF3F1E0057F2DC /* DeleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C6319FF3F1E0057F2DC /* DeleteView.m */; };
+		FD269C6819FF3F630057F2DC /* SnoopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C6619FF3F630057F2DC /* SnoopyViewController.m */; };
+		FD269C6919FF3F630057F2DC /* SnoopyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C6719FF3F630057F2DC /* SnoopyViewController.xib */; };
+		FD269C6D19FF404E0057F2DC /* FirstFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C6B19FF404E0057F2DC /* FirstFirstViewController.m */; };
+		FD269C6E19FF404E0057F2DC /* FirstFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C6C19FF404E0057F2DC /* FirstFirstViewController.xib */; };
+		FD269C7119FF40780057F2DC /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C7019FF40780057F2DC /* EditViewController.m */; };
+		FD269C7319FF409C0057F2DC /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD269C7219FF409C0057F2DC /* FirstViewController.xib */; };
+		FD269C7919FF41FD0057F2DC /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C7619FF41FD0057F2DC /* JASidePanelController.m */; };
+		FD269C7A19FF41FD0057F2DC /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C7819FF41FD0057F2DC /* UIViewController+JASidePanel.m */; };
 		FD9F219019DD12210094C4A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD9F219219DD12210094C4A5 /* Localizable.strings */; };
 		FD9F219519DD2B950094C4A5 /* CreateFolderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9F219719DD2B950094C4A5 /* CreateFolderViewController.xib */; };
-		FDCA7FF419D0305A00EC5CBB /* CreateFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCA7FF219D0305A00EC5CBB /* CreateFolderViewController.m */; };
-		FDEDE4CF19DE878300B4151A /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEDE4CD19DE878300B4151A /* EditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,9 +130,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E15DD1219E15AE300A29E82 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
-		2E15DD1319E15AE300A29E82 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
-		2E15DD1719E15B2D00A29E82 /* ForthViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ForthViewController.storyboard; sourceTree = "<group>"; };
 		2E4ACFD319C9B932000E9726 /* ViewMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4ACFD619C9B932000E9726 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E4ACFD819C9B932000E9726 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -141,23 +138,12 @@
 		2E4ACFE019C9B932000E9726 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E4ACFE219C9B932000E9726 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E4ACFE419C9B932000E9726 /* ViewMaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewMaster-Prefix.pch"; sourceTree = "<group>"; };
-		2E4ACFE519C9B932000E9726 /* ViewMasterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewMasterAppDelegate.h; sourceTree = "<group>"; };
-		2E4ACFE619C9B932000E9726 /* ViewMasterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewMasterAppDelegate.m; sourceTree = "<group>"; };
 		2E4ACFE819C9B932000E9726 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2E4ACFEE19C9B933000E9726 /* ViewMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4ACFEF19C9B933000E9726 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2E4ACFF719C9B933000E9726 /* ViewMasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewMasterTests-Info.plist"; sourceTree = "<group>"; };
 		2E4ACFF919C9B933000E9726 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E4ACFFB19C9B933000E9726 /* ViewMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewMasterTests.m; sourceTree = "<group>"; };
-		2E4AD00819C9BE47000E9726 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = ../FirstViewController.h; sourceTree = "<group>"; };
-		2E4AD00919C9BE47000E9726 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = ../FirstViewController.m; sourceTree = "<group>"; };
-		2E4AD00A19C9BE47000E9726 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController.xib; path = ../FirstViewController.xib; sourceTree = "<group>"; };
-		2E4AD00D19C9D4B7000E9726 /* ZeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZeroViewController.h; sourceTree = "<group>"; };
-		2E4AD00E19C9D4B7000E9726 /* ZeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZeroViewController.m; sourceTree = "<group>"; };
-		2E4AD00F19C9D4B7000E9726 /* ZeroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZeroViewController.xib; sourceTree = "<group>"; };
-		2E4AD01219C9D8DF000E9726 /* FirstFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstFirstViewController.h; path = ../FirstFirstViewController.h; sourceTree = "<group>"; };
-		2E4AD01319C9D8DF000E9726 /* FirstFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstFirstViewController.m; path = ../FirstFirstViewController.m; sourceTree = "<group>"; };
-		2E4AD01419C9D8DF000E9726 /* FirstFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstFirstViewController.xib; path = ../FirstFirstViewController.xib; sourceTree = "<group>"; };
 		FD0AFD5C19F4BD5000F7A41C /* AddPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddPage.png; path = images/icon/AddPage.png; sourceTree = "<group>"; };
 		FD0AFD5D19F4BD5000F7A41C /* AddPage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AddPage@2x.png"; path = "images/icon/AddPage@2x.png"; sourceTree = "<group>"; };
 		FD0AFD5E19F4BD5000F7A41C /* Dir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dir.png; path = images/icon/Dir.png; sourceTree = "<group>"; };
@@ -204,9 +190,6 @@
 		FD0AFD9419F4BDC600F7A41C /* samplea.numbers */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = samplea.numbers; path = images/samplea.numbers; sourceTree = "<group>"; };
 		FD0AFD9519F4BDC600F7A41C /* samplea.numbers.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = samplea.numbers.zip; path = images/samplea.numbers.zip; sourceTree = "<group>"; };
 		FD0AFDCF19F5FD7000F7A41C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		FD0AFDD119F5FF3900F7A41C /* EGOlibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOlibraryViewController.h; sourceTree = "<group>"; };
-		FD0AFDD219F5FF3900F7A41C /* EGOlibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOlibraryViewController.m; sourceTree = "<group>"; };
-		FD0AFDD319F5FF3900F7A41C /* EGOlibraryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGOlibraryViewController.xib; sourceTree = "<group>"; };
 		FD0AFDD919F616AF00F7A41C /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
 		FD0AFDDA19F616AF00F7A41C /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
 		FD0AFDDC19F616AF00F7A41C /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
@@ -217,20 +200,6 @@
 		FD0AFDE119F616AF00F7A41C /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
 		FD0AFDE219F616AF00F7A41C /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
 		FD0AFDE319F616AF00F7A41C /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
-		FD0AFDED19F61E6900F7A41C /* EGOlibraryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOlibraryTableViewController.h; sourceTree = "<group>"; };
-		FD0AFDEE19F61E6900F7A41C /* EGOlibraryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOlibraryTableViewController.m; sourceTree = "<group>"; };
-		FD0AFE3219F7460300F7A41C /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
-		FD0AFE3319F7460300F7A41C /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
-		FD0AFE3419F7460300F7A41C /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
-		FD0AFE3519F7460300F7A41C /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
-		FD0AFE3819F7466900F7A41C /* FBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTableViewController.h; sourceTree = "<group>"; };
-		FD0AFE3919F7466900F7A41C /* FBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTableViewController.m; sourceTree = "<group>"; };
-		FD0AFE3A19F7466900F7A41C /* FBTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBTableViewController.xib; sourceTree = "<group>"; };
-		FD0AFEE719F7927100F7A41C /* ReMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReMenuViewController.h; sourceTree = "<group>"; };
-		FD0AFEE819F7927100F7A41C /* ReMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReMenuViewController.m; sourceTree = "<group>"; };
-		FD0AFEE919F7927100F7A41C /* ReMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReMenuViewController.xib; sourceTree = "<group>"; };
-		FD0AFEED19F7979100F7A41C /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
-		FD0AFEEE19F7979100F7A41C /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
 		FD0AFEF119F7997F00F7A41C /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
 		FD0AFEF219F7997F00F7A41C /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
 		FD0AFEF319F7997F00F7A41C /* REMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenu.h; sourceTree = "<group>"; };
@@ -241,39 +210,73 @@
 		FD0AFEF819F7997F00F7A41C /* REMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItem.m; sourceTree = "<group>"; };
 		FD0AFEF919F7997F00F7A41C /* REMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItemView.h; sourceTree = "<group>"; };
 		FD0AFEFA19F7997F00F7A41C /* REMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItemView.m; sourceTree = "<group>"; };
-		FD0AFF0019F8997700F7A41C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		FD0AFF0119F8997700F7A41C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		FD0AFF0319F89A5500F7A41C /* ActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityView.h; sourceTree = "<group>"; };
-		FD0AFF0419F89A5500F7A41C /* ActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityView.m; sourceTree = "<group>"; };
-		FD0AFF0619F8A10B00F7A41C /* DeleteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteView.h; sourceTree = "<group>"; };
-		FD0AFF0719F8A10B00F7A41C /* DeleteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteView.m; sourceTree = "<group>"; };
-		FD0F7D9D19ECE7CE003CC5B1 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		FD0F7D9E19ECE7CE003CC5B1 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		FD0F7D9F19ECE7CE003CC5B1 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
-		FD2CE6DD19EDF93300963174 /* QuickLookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickLookViewController.h; sourceTree = "<group>"; };
-		FD2CE6DE19EDF93300963174 /* QuickLookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickLookViewController.m; sourceTree = "<group>"; };
-		FD2CE6DF19EDF93300963174 /* QuickLookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuickLookViewController.xib; sourceTree = "<group>"; };
+		FD269C0E19FF39E90057F2DC /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = Classes/ViewController/WebViewController.h; sourceTree = "<group>"; };
+		FD269C0F19FF39E90057F2DC /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = Classes/ViewController/WebViewController.m; sourceTree = "<group>"; };
+		FD269C1019FF39E90057F2DC /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WebViewController.xib; path = Classes/ViewController/WebViewController.xib; sourceTree = "<group>"; };
+		FD269C1119FF39E90057F2DC /* ZeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZeroViewController.h; path = Classes/ViewController/ZeroViewController.h; sourceTree = "<group>"; };
+		FD269C1219FF39E90057F2DC /* ZeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZeroViewController.m; path = Classes/ViewController/ZeroViewController.m; sourceTree = "<group>"; };
+		FD269C1319FF39E90057F2DC /* ZeroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZeroViewController.xib; path = Classes/ViewController/ZeroViewController.xib; sourceTree = "<group>"; };
+		FD269C1819FF3A720057F2DC /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OneViewController.h; path = Classes/ViewController/OneViewController.h; sourceTree = "<group>"; };
+		FD269C1919FF3A720057F2DC /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OneViewController.m; path = Classes/ViewController/OneViewController.m; sourceTree = "<group>"; };
+		FD269C1A19FF3A720057F2DC /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OneViewController.xib; path = Classes/ViewController/OneViewController.xib; sourceTree = "<group>"; };
+		FD269C1D19FF3ABF0057F2DC /* CreateFolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateFolderViewController.h; path = Classes/ViewController/CreateFolderViewController.h; sourceTree = "<group>"; };
+		FD269C1E19FF3ABF0057F2DC /* CreateFolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateFolderViewController.m; path = Classes/ViewController/CreateFolderViewController.m; sourceTree = "<group>"; };
+		FD269C2019FF3C130057F2DC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = Classes/ViewController/FirstViewController.m; sourceTree = "<group>"; };
+		FD269C2219FF3C6B0057F2DC /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonUtil.h; path = Classes/CommonUtil.h; sourceTree = "<group>"; };
+		FD269C2319FF3C6B0057F2DC /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonUtil.m; path = Classes/CommonUtil.m; sourceTree = "<group>"; };
+		FD269C2419FF3C6B0057F2DC /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Define.h; path = Classes/Define.h; sourceTree = "<group>"; };
+		FD269C2519FF3C6B0057F2DC /* FileManageHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileManageHelp.h; path = Classes/FileManageHelp.h; sourceTree = "<group>"; };
+		FD269C2619FF3C6B0057F2DC /* FileManageHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileManageHelp.m; path = Classes/FileManageHelp.m; sourceTree = "<group>"; };
+		FD269C2719FF3C6B0057F2DC /* ForAlertDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForAlertDialog.m; path = Classes/ForAlertDialog.m; sourceTree = "<group>"; };
+		FD269C2B19FF3CA10057F2DC /* SectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionTableViewController.h; path = Classes/ViewController/SectionTableViewController.h; sourceTree = "<group>"; };
+		FD269C2C19FF3CA10057F2DC /* SectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionTableViewController.m; path = Classes/ViewController/SectionTableViewController.m; sourceTree = "<group>"; };
+		FD269C2D19FF3CA10057F2DC /* SectionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SectionTableViewController.xib; path = Classes/ViewController/SectionTableViewController.xib; sourceTree = "<group>"; };
+		FD269C3019FF3CCE0057F2DC /* ViewMasterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewMasterAppDelegate.h; path = Classes/ViewMasterAppDelegate.h; sourceTree = "<group>"; };
+		FD269C3119FF3CCE0057F2DC /* ViewMasterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewMasterAppDelegate.m; path = Classes/ViewMasterAppDelegate.m; sourceTree = "<group>"; };
+		FD269C3319FF3CF80057F2DC /* FBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBTableViewController.h; path = Classes/ViewController/FBTableViewController.h; sourceTree = "<group>"; };
+		FD269C3419FF3CF80057F2DC /* FBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBTableViewController.m; path = Classes/ViewController/FBTableViewController.m; sourceTree = "<group>"; };
+		FD269C3519FF3CF80057F2DC /* FBTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FBTableViewController.xib; path = Classes/ViewController/FBTableViewController.xib; sourceTree = "<group>"; };
+		FD269C3819FF3D200057F2DC /* EGOlibraryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGOlibraryTableViewController.h; path = Classes/ViewController/EGOlibraryTableViewController.h; sourceTree = "<group>"; };
+		FD269C3919FF3D200057F2DC /* EGOlibraryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGOlibraryTableViewController.m; path = Classes/ViewController/EGOlibraryTableViewController.m; sourceTree = "<group>"; };
+		FD269C3A19FF3D200057F2DC /* EGOlibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGOlibraryViewController.h; path = Classes/ViewController/EGOlibraryViewController.h; sourceTree = "<group>"; };
+		FD269C3B19FF3D200057F2DC /* EGOlibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGOlibraryViewController.m; path = Classes/ViewController/EGOlibraryViewController.m; sourceTree = "<group>"; };
+		FD269C3C19FF3D200057F2DC /* EGOlibraryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EGOlibraryViewController.xib; path = Classes/ViewController/EGOlibraryViewController.xib; sourceTree = "<group>"; };
+		FD269C4019FF3D400057F2DC /* QuickLookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickLookViewController.h; path = Classes/ViewController/QuickLookViewController.h; sourceTree = "<group>"; };
+		FD269C4119FF3D400057F2DC /* QuickLookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickLookViewController.m; path = Classes/ViewController/QuickLookViewController.m; sourceTree = "<group>"; };
+		FD269C4219FF3D400057F2DC /* QuickLookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QuickLookViewController.xib; path = Classes/ViewController/QuickLookViewController.xib; sourceTree = "<group>"; };
+		FD269C4519FF3D6D0057F2DC /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForthViewController.h; path = Classes/ViewController/ForthViewController.h; sourceTree = "<group>"; };
+		FD269C4619FF3D6D0057F2DC /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForthViewController.m; path = Classes/ViewController/ForthViewController.m; sourceTree = "<group>"; };
+		FD269C4719FF3D6D0057F2DC /* ForthViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ForthViewController.storyboard; path = Classes/ViewController/ForthViewController.storyboard; sourceTree = "<group>"; };
+		FD269C4A19FF3DA20057F2DC /* ReMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReMenuViewController.h; path = Classes/ViewController/ReMenuViewController.h; sourceTree = "<group>"; };
+		FD269C4B19FF3DA20057F2DC /* ReMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReMenuViewController.m; path = Classes/ViewController/ReMenuViewController.m; sourceTree = "<group>"; };
+		FD269C4C19FF3DA20057F2DC /* ReMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReMenuViewController.xib; path = Classes/ViewController/ReMenuViewController.xib; sourceTree = "<group>"; };
+		FD269C4F19FF3DBC0057F2DC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Classes/ViewController/HomeViewController.h; sourceTree = "<group>"; };
+		FD269C5019FF3DBC0057F2DC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Classes/ViewController/HomeViewController.m; sourceTree = "<group>"; };
+		FD269C5119FF3DBC0057F2DC /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationViewController.h; path = Classes/ViewController/NavigationViewController.h; sourceTree = "<group>"; };
+		FD269C5219FF3DBC0057F2DC /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationViewController.m; path = Classes/ViewController/NavigationViewController.m; sourceTree = "<group>"; };
+		FD269C5F19FF3F0B0057F2DC /* ActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityView.h; path = Classes/ViewController/ActivityView.h; sourceTree = "<group>"; };
+		FD269C6019FF3F0B0057F2DC /* ActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityView.m; path = Classes/ViewController/ActivityView.m; sourceTree = "<group>"; };
+		FD269C6219FF3F1E0057F2DC /* DeleteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeleteView.h; path = Classes/ViewController/DeleteView.h; sourceTree = "<group>"; };
+		FD269C6319FF3F1E0057F2DC /* DeleteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeleteView.m; path = Classes/ViewController/DeleteView.m; sourceTree = "<group>"; };
+		FD269C6519FF3F630057F2DC /* SnoopyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnoopyViewController.h; path = Classes/ViewController/SnoopyViewController.h; sourceTree = "<group>"; };
+		FD269C6619FF3F630057F2DC /* SnoopyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnoopyViewController.m; path = Classes/ViewController/SnoopyViewController.m; sourceTree = "<group>"; };
+		FD269C6719FF3F630057F2DC /* SnoopyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SnoopyViewController.xib; path = Classes/ViewController/SnoopyViewController.xib; sourceTree = "<group>"; };
+		FD269C6A19FF404E0057F2DC /* FirstFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstFirstViewController.h; path = Classes/ViewController/FirstFirstViewController.h; sourceTree = "<group>"; };
+		FD269C6B19FF404E0057F2DC /* FirstFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstFirstViewController.m; path = Classes/ViewController/FirstFirstViewController.m; sourceTree = "<group>"; };
+		FD269C6C19FF404E0057F2DC /* FirstFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstFirstViewController.xib; path = Classes/ViewController/FirstFirstViewController.xib; sourceTree = "<group>"; };
+		FD269C6F19FF40780057F2DC /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditViewController.h; path = Classes/ViewController/EditViewController.h; sourceTree = "<group>"; };
+		FD269C7019FF40780057F2DC /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditViewController.m; path = Classes/ViewController/EditViewController.m; sourceTree = "<group>"; };
+		FD269C7219FF409C0057F2DC /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController.xib; path = Classes/ViewController/FirstViewController.xib; sourceTree = "<group>"; };
+		FD269C7419FF40E50057F2DC /* ForAlertDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForAlertDialog.h; path = Classes/ForAlertDialog.h; sourceTree = "<group>"; };
+		FD269C7519FF41FD0057F2DC /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JASidePanelController.h; path = library/Source/JASidePanelController.h; sourceTree = SOURCE_ROOT; };
+		FD269C7619FF41FD0057F2DC /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JASidePanelController.m; path = library/Source/JASidePanelController.m; sourceTree = SOURCE_ROOT; };
+		FD269C7719FF41FD0057F2DC /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JASidePanel.h"; path = "library/Source/UIViewController+JASidePanel.h"; sourceTree = SOURCE_ROOT; };
+		FD269C7819FF41FD0057F2DC /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JASidePanel.m"; path = "library/Source/UIViewController+JASidePanel.m"; sourceTree = SOURCE_ROOT; };
+		FD269C8B19FF59280057F2DC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = Classes/ViewController/FirstViewController.h; sourceTree = "<group>"; };
 		FD2CE6E219EDF9D500963174 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/CreateFolderViewController.xib; sourceTree = "<group>"; };
 		FD2CE6E319EDF9D500963174 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FD2CE6E419EDF9D500963174 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FD2CE6E519EDF9D500963174 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FD2CE6E719EDF9EC00963174 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SnoopyViewController.xib; sourceTree = "<group>"; };
-		FD2CE6E919EDF9F200963174 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/SnoopyViewController.xib; sourceTree = "<group>"; };
-		FD2CE6EC19EE2B6D00963174 /* FileManageHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManageHelp.h; sourceTree = "<group>"; };
-		FD2CE6ED19EE2B6D00963174 /* FileManageHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManageHelp.m; sourceTree = "<group>"; };
-		FD2CF2DC19CAF346005DC7C5 /* SnoopyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnoopyViewController.h; sourceTree = "<group>"; };
-		FD2CF2DD19CAF346005DC7C5 /* SnoopyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnoopyViewController.m; sourceTree = "<group>"; };
-		FD33E01419FE221200C2A16A /* SectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionTableViewController.h; sourceTree = "<group>"; };
-		FD33E01519FE221200C2A16A /* SectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionTableViewController.m; sourceTree = "<group>"; };
-		FD33E01619FE221200C2A16A /* SectionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionTableViewController.xib; sourceTree = "<group>"; };
-		FD33E01A19FE31BB00C2A16A /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
-		FD33E01B19FE31BB00C2A16A /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
-		FD33E01C19FE31BB00C2A16A /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
-		FD3E804119E21F5500AB37A6 /* ForAlertDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForAlertDialog.h; path = ../ForAlertDialog.h; sourceTree = "<group>"; };
-		FD3E804219E21F5500AB37A6 /* ForAlertDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForAlertDialog.m; path = ../ForAlertDialog.m; sourceTree = "<group>"; };
-		FD3E804419E227D300AB37A6 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
-		FD3E804519E227D300AB37A6 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
-		FD9F218919DD11730094C4A5 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		FD9F218C19DD12010094C4A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FD9F218D19DD12010094C4A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FD9F218E19DD12130094C4A5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -284,10 +287,6 @@
 		FD9F219619DD2B950094C4A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CreateFolderViewController.xib; sourceTree = "<group>"; };
 		FD9F219819DD2B9C0094C4A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/CreateFolderViewController.xib; sourceTree = "<group>"; };
 		FD9F219919DD2BA60094C4A5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CreateFolderViewController.xib; sourceTree = "<group>"; };
-		FDCA7FF119D0305A00EC5CBB /* CreateFolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateFolderViewController.h; sourceTree = "<group>"; };
-		FDCA7FF219D0305A00EC5CBB /* CreateFolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateFolderViewController.m; sourceTree = "<group>"; };
-		FDEDE4CC19DE878300B4151A /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditViewController.h; path = ../EditViewController.h; sourceTree = "<group>"; };
-		FDEDE4CD19DE878300B4151A /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditViewController.m; path = ../EditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -350,16 +349,16 @@
 			isa = PBXGroup;
 			children = (
 				FD3E804719E227EC00AB37A6 /* ViewController */,
-				FD3E804119E21F5500AB37A6 /* ForAlertDialog.h */,
-				FD3E804219E21F5500AB37A6 /* ForAlertDialog.m */,
+				FD269C2219FF3C6B0057F2DC /* CommonUtil.h */,
+				FD269C2319FF3C6B0057F2DC /* CommonUtil.m */,
+				FD269C2419FF3C6B0057F2DC /* Define.h */,
+				FD269C2519FF3C6B0057F2DC /* FileManageHelp.h */,
+				FD269C2619FF3C6B0057F2DC /* FileManageHelp.m */,
+				FD269C7419FF40E50057F2DC /* ForAlertDialog.h */,
+				FD269C2719FF3C6B0057F2DC /* ForAlertDialog.m */,
+				FD269C3019FF3CCE0057F2DC /* ViewMasterAppDelegate.h */,
+				FD269C3119FF3CCE0057F2DC /* ViewMasterAppDelegate.m */,
 				2E4ACFE819C9B932000E9726 /* Images.xcassets */,
-				2E4ACFE519C9B932000E9726 /* ViewMasterAppDelegate.h */,
-				2E4ACFE619C9B932000E9726 /* ViewMasterAppDelegate.m */,
-				FD9F218919DD11730094C4A5 /* Define.h */,
-				FD3E804419E227D300AB37A6 /* CommonUtil.h */,
-				FD3E804519E227D300AB37A6 /* CommonUtil.m */,
-				FD2CE6EC19EE2B6D00963174 /* FileManageHelp.h */,
-				FD2CE6ED19EE2B6D00963174 /* FileManageHelp.m */,
 				2E4ACFDD19C9B932000E9726 /* Supporting Files */,
 				FD0AFE1019F645B100F7A41C /* library */,
 			);
@@ -474,10 +473,10 @@
 		FD0AFE3119F7460300F7A41C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				FD0AFE3219F7460300F7A41C /* JASidePanelController.h */,
-				FD0AFE3319F7460300F7A41C /* JASidePanelController.m */,
-				FD0AFE3419F7460300F7A41C /* UIViewController+JASidePanel.h */,
-				FD0AFE3519F7460300F7A41C /* UIViewController+JASidePanel.m */,
+				FD269C7519FF41FD0057F2DC /* JASidePanelController.h */,
+				FD269C7619FF41FD0057F2DC /* JASidePanelController.m */,
+				FD269C7719FF41FD0057F2DC /* UIViewController+JASidePanel.h */,
+				FD269C7819FF41FD0057F2DC /* UIViewController+JASidePanel.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -485,15 +484,15 @@
 		FD0AFE6F19F764BF00F7A41C /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				2E4AD00D19C9D4B7000E9726 /* ZeroViewController.h */,
-				2E4AD00E19C9D4B7000E9726 /* ZeroViewController.m */,
-				2E4AD00F19C9D4B7000E9726 /* ZeroViewController.xib */,
-				FD33E01A19FE31BB00C2A16A /* OneViewController.h */,
-				FD33E01B19FE31BB00C2A16A /* OneViewController.m */,
-				FD33E01C19FE31BB00C2A16A /* OneViewController.xib */,
-				FD0F7D9D19ECE7CE003CC5B1 /* WebViewController.h */,
-				FD0F7D9E19ECE7CE003CC5B1 /* WebViewController.m */,
-				FD0F7D9F19ECE7CE003CC5B1 /* WebViewController.xib */,
+				FD269C0E19FF39E90057F2DC /* WebViewController.h */,
+				FD269C0F19FF39E90057F2DC /* WebViewController.m */,
+				FD269C1019FF39E90057F2DC /* WebViewController.xib */,
+				FD269C1119FF39E90057F2DC /* ZeroViewController.h */,
+				FD269C1219FF39E90057F2DC /* ZeroViewController.m */,
+				FD269C1319FF39E90057F2DC /* ZeroViewController.xib */,
+				FD269C1819FF3A720057F2DC /* OneViewController.h */,
+				FD269C1919FF3A720057F2DC /* OneViewController.m */,
+				FD269C1A19FF3A720057F2DC /* OneViewController.xib */,
 			);
 			name = WebView;
 			sourceTree = "<group>";
@@ -501,14 +500,14 @@
 		FD0AFE7019F764DE00F7A41C /* CreateFolderView */ = {
 			isa = PBXGroup;
 			children = (
-				2E4AD01219C9D8DF000E9726 /* FirstFirstViewController.h */,
-				2E4AD01319C9D8DF000E9726 /* FirstFirstViewController.m */,
-				2E4AD01419C9D8DF000E9726 /* FirstFirstViewController.xib */,
-				FD2CF2DC19CAF346005DC7C5 /* SnoopyViewController.h */,
-				FD2CF2DD19CAF346005DC7C5 /* SnoopyViewController.m */,
-				FD2CE6E819EDF9EC00963174 /* SnoopyViewController.xib */,
-				FDCA7FF119D0305A00EC5CBB /* CreateFolderViewController.h */,
-				FDCA7FF219D0305A00EC5CBB /* CreateFolderViewController.m */,
+				FD269C1D19FF3ABF0057F2DC /* CreateFolderViewController.h */,
+				FD269C1E19FF3ABF0057F2DC /* CreateFolderViewController.m */,
+				FD269C6A19FF404E0057F2DC /* FirstFirstViewController.h */,
+				FD269C6B19FF404E0057F2DC /* FirstFirstViewController.m */,
+				FD269C6C19FF404E0057F2DC /* FirstFirstViewController.xib */,
+				FD269C6519FF3F630057F2DC /* SnoopyViewController.h */,
+				FD269C6619FF3F630057F2DC /* SnoopyViewController.m */,
+				FD269C6719FF3F630057F2DC /* SnoopyViewController.xib */,
 				FD9F219719DD2B950094C4A5 /* CreateFolderViewController.xib */,
 			);
 			name = CreateFolderView;
@@ -517,8 +516,8 @@
 		FD0AFE7119F7650200F7A41C /* EditView */ = {
 			isa = PBXGroup;
 			children = (
-				FDEDE4CC19DE878300B4151A /* EditViewController.h */,
-				FDEDE4CD19DE878300B4151A /* EditViewController.m */,
+				FD269C6F19FF40780057F2DC /* EditViewController.h */,
+				FD269C7019FF40780057F2DC /* EditViewController.m */,
 			);
 			name = EditView;
 			sourceTree = "<group>";
@@ -526,9 +525,9 @@
 		FD0AFE7219F7651C00F7A41C /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				2E15DD1219E15AE300A29E82 /* ForthViewController.h */,
-				2E15DD1319E15AE300A29E82 /* ForthViewController.m */,
-				2E15DD1719E15B2D00A29E82 /* ForthViewController.storyboard */,
+				FD269C4519FF3D6D0057F2DC /* ForthViewController.h */,
+				FD269C4619FF3D6D0057F2DC /* ForthViewController.m */,
+				FD269C4719FF3D6D0057F2DC /* ForthViewController.storyboard */,
 			);
 			name = StoryBoard;
 			sourceTree = "<group>";
@@ -536,9 +535,9 @@
 		FD0AFE7319F7653800F7A41C /* QuickLook */ = {
 			isa = PBXGroup;
 			children = (
-				FD2CE6DD19EDF93300963174 /* QuickLookViewController.h */,
-				FD2CE6DE19EDF93300963174 /* QuickLookViewController.m */,
-				FD2CE6DF19EDF93300963174 /* QuickLookViewController.xib */,
+				FD269C4019FF3D400057F2DC /* QuickLookViewController.h */,
+				FD269C4119FF3D400057F2DC /* QuickLookViewController.m */,
+				FD269C4219FF3D400057F2DC /* QuickLookViewController.xib */,
 			);
 			name = QuickLook;
 			sourceTree = "<group>";
@@ -546,11 +545,11 @@
 		FD0AFE7419F7655F00F7A41C /* EgoLibraryView */ = {
 			isa = PBXGroup;
 			children = (
-				FD0AFDD119F5FF3900F7A41C /* EGOlibraryViewController.h */,
-				FD0AFDD219F5FF3900F7A41C /* EGOlibraryViewController.m */,
-				FD0AFDD319F5FF3900F7A41C /* EGOlibraryViewController.xib */,
-				FD0AFDED19F61E6900F7A41C /* EGOlibraryTableViewController.h */,
-				FD0AFDEE19F61E6900F7A41C /* EGOlibraryTableViewController.m */,
+				FD269C3819FF3D200057F2DC /* EGOlibraryTableViewController.h */,
+				FD269C3919FF3D200057F2DC /* EGOlibraryTableViewController.m */,
+				FD269C3A19FF3D200057F2DC /* EGOlibraryViewController.h */,
+				FD269C3B19FF3D200057F2DC /* EGOlibraryViewController.m */,
+				FD269C3C19FF3D200057F2DC /* EGOlibraryViewController.xib */,
 			);
 			name = EgoLibraryView;
 			sourceTree = "<group>";
@@ -558,9 +557,9 @@
 		FD0AFE7519F7658500F7A41C /* FaceBookMenu */ = {
 			isa = PBXGroup;
 			children = (
-				FD0AFE3819F7466900F7A41C /* FBTableViewController.h */,
-				FD0AFE3919F7466900F7A41C /* FBTableViewController.m */,
-				FD0AFE3A19F7466900F7A41C /* FBTableViewController.xib */,
+				FD269C3319FF3CF80057F2DC /* FBTableViewController.h */,
+				FD269C3419FF3CF80057F2DC /* FBTableViewController.m */,
+				FD269C3519FF3CF80057F2DC /* FBTableViewController.xib */,
 			);
 			name = FaceBookMenu;
 			sourceTree = "<group>";
@@ -568,17 +567,17 @@
 		FD0AFEEC19F7927A00F7A41C /* ReMenuView */ = {
 			isa = PBXGroup;
 			children = (
-				FD0AFEE719F7927100F7A41C /* ReMenuViewController.h */,
-				FD0AFEE819F7927100F7A41C /* ReMenuViewController.m */,
-				FD0AFEE919F7927100F7A41C /* ReMenuViewController.xib */,
-				FD0AFF0019F8997700F7A41C /* HomeViewController.h */,
-				FD0AFF0119F8997700F7A41C /* HomeViewController.m */,
-				FD0AFEED19F7979100F7A41C /* NavigationViewController.h */,
-				FD0AFEEE19F7979100F7A41C /* NavigationViewController.m */,
-				FD0AFF0319F89A5500F7A41C /* ActivityView.h */,
-				FD0AFF0419F89A5500F7A41C /* ActivityView.m */,
-				FD0AFF0619F8A10B00F7A41C /* DeleteView.h */,
-				FD0AFF0719F8A10B00F7A41C /* DeleteView.m */,
+				FD269C4F19FF3DBC0057F2DC /* HomeViewController.h */,
+				FD269C5019FF3DBC0057F2DC /* HomeViewController.m */,
+				FD269C5119FF3DBC0057F2DC /* NavigationViewController.h */,
+				FD269C5219FF3DBC0057F2DC /* NavigationViewController.m */,
+				FD269C4A19FF3DA20057F2DC /* ReMenuViewController.h */,
+				FD269C4B19FF3DA20057F2DC /* ReMenuViewController.m */,
+				FD269C4C19FF3DA20057F2DC /* ReMenuViewController.xib */,
+				FD269C5F19FF3F0B0057F2DC /* ActivityView.h */,
+				FD269C6019FF3F0B0057F2DC /* ActivityView.m */,
+				FD269C6219FF3F1E0057F2DC /* DeleteView.h */,
+				FD269C6319FF3F1E0057F2DC /* DeleteView.m */,
 			);
 			name = ReMenuView;
 			sourceTree = "<group>";
@@ -604,9 +603,9 @@
 		FD33E01919FE221800C2A16A /* SectionView */ = {
 			isa = PBXGroup;
 			children = (
-				FD33E01419FE221200C2A16A /* SectionTableViewController.h */,
-				FD33E01519FE221200C2A16A /* SectionTableViewController.m */,
-				FD33E01619FE221200C2A16A /* SectionTableViewController.xib */,
+				FD269C2B19FF3CA10057F2DC /* SectionTableViewController.h */,
+				FD269C2C19FF3CA10057F2DC /* SectionTableViewController.m */,
+				FD269C2D19FF3CA10057F2DC /* SectionTableViewController.xib */,
 			);
 			name = SectionView;
 			sourceTree = "<group>";
@@ -622,9 +621,9 @@
 		FD3E804719E227EC00AB37A6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				2E4AD00819C9BE47000E9726 /* FirstViewController.h */,
-				2E4AD00919C9BE47000E9726 /* FirstViewController.m */,
-				2E4AD00A19C9BE47000E9726 /* FirstViewController.xib */,
+				FD269C8B19FF59280057F2DC /* FirstViewController.h */,
+				FD269C2019FF3C130057F2DC /* FirstViewController.m */,
+				FD269C7219FF409C0057F2DC /* FirstViewController.xib */,
 				FD0AFE6F19F764BF00F7A41C /* WebView */,
 				FD0AFE7019F764DE00F7A41C /* CreateFolderView */,
 				FD0AFE7119F7650200F7A41C /* EditView */,
@@ -762,18 +761,17 @@
 				FD0AFDA319F4BDC600F7A41C /* sample.jpe in Resources */,
 				FD0AFD9A19F4BDC600F7A41C /* sample_3s.doc in Resources */,
 				FD0AFD7119F4BD5000F7A41C /* png.png in Resources */,
+				FD269C1519FF39E90057F2DC /* WebViewController.xib in Resources */,
 				FD0AFD9919F4BDC600F7A41C /* bearbrick2.jpg in Resources */,
 				FD0AFDE619F616AF00F7A41C /* blackArrow@2x.png in Resources */,
 				FD0AFD9F19F4BDC600F7A41C /* sample.doc in Resources */,
 				FD0AFDAB19F4BDC600F7A41C /* sample.ppt in Resources */,
 				FD0AFDE719F616AF00F7A41C /* blueArrow.png in Resources */,
-				FD0AFEEB19F7927100F7A41C /* ReMenuViewController.xib in Resources */,
 				FD0AFD9D19F4BDC600F7A41C /* sample.broken in Resources */,
 				2E4ACFE119C9B932000E9726 /* InfoPlist.strings in Resources */,
-				FD33E01E19FE31BB00C2A16A /* OneViewController.xib in Resources */,
-				FD2CE6E119EDF93300963174 /* QuickLookViewController.xib in Resources */,
 				FD0AFDB219F4BDC600F7A41C /* sample.txt in Resources */,
 				FD0AFDB619F4BDC600F7A41C /* samplea.numbers.zip in Resources */,
+				FD269C3719FF3CF80057F2DC /* FBTableViewController.xib in Resources */,
 				FD0AFDA419F4BDC600F7A41C /* sample.jpeg in Resources */,
 				FD0AFD7319F4BD5000F7A41C /* third@2x.png in Resources */,
 				FD0AFD9E19F4BDC600F7A41C /* sample.csv in Resources */,
@@ -784,50 +782,51 @@
 				FD0AFD9819F4BDC600F7A41C /* bearbrick1.jpg in Resources */,
 				FD0AFD7019F4BD5000F7A41C /* pdf@2x.png in Resources */,
 				FD0AFD9719F4BDC600F7A41C /* bearbrick.jpg in Resources */,
+				FD269C6E19FF404E0057F2DC /* FirstFirstViewController.xib in Resources */,
 				FD0AFDE819F616AF00F7A41C /* blueArrow@2x.png in Resources */,
 				FD0AFDEB19F616AF00F7A41C /* whiteArrow.png in Resources */,
+				FD269C1719FF39E90057F2DC /* ZeroViewController.xib in Resources */,
 				FD0AFDA919F4BDC600F7A41C /* sample.pages.zip in Resources */,
-				FD0F7DA119ECE7CE003CC5B1 /* WebViewController.xib in Resources */,
 				FD0AFDB519F4BDC600F7A41C /* samplea.numbers in Resources */,
 				FD0AFDEA19F616AF00F7A41C /* grayArrow@2x.png in Resources */,
 				FD0AFDA219F4BDC600F7A41C /* sample.html in Resources */,
 				FD9F219019DD12210094C4A5 /* Localizable.strings in Resources */,
 				FD0AFDA819F4BDC600F7A41C /* sample.pages in Resources */,
 				FD0AFDAC19F4BDC600F7A41C /* sample.pptx in Resources */,
-				2E4AD00C19C9BE47000E9726 /* FirstViewController.xib in Resources */,
 				FD0AFD9C19F4BDC600F7A41C /* sample_pass.pdf in Resources */,
+				FD269C2F19FF3CA10057F2DC /* SectionTableViewController.xib in Resources */,
 				FD9F219519DD2B950094C4A5 /* CreateFolderViewController.xib in Resources */,
-				2E4AD01119C9D4B7000E9726 /* ZeroViewController.xib in Resources */,
 				FD0AFD6F19F4BD5000F7A41C /* pdf.png in Resources */,
 				FD0AFDA619F4BDC600F7A41C /* sample.key in Resources */,
 				FD0AFD6C19F4BD5000F7A41C /* Dir@2x.png in Resources */,
-				2E15DD1819E15B2D00A29E82 /* ForthViewController.storyboard in Resources */,
 				FD0AFDE519F616AF00F7A41C /* blackArrow.png in Resources */,
 				FD0AFDB419F4BDC600F7A41C /* sample.xlsx in Resources */,
+				FD269C1C19FF3A720057F2DC /* OneViewController.xib in Resources */,
 				FD0AFDB319F4BDC600F7A41C /* sample.xls in Resources */,
 				FD0AFDAD19F4BDC600F7A41C /* sample.rtf in Resources */,
 				FD0AFD6A19F4BD5000F7A41C /* AddPage@2x.png in Resources */,
 				FD0AFD6B19F4BD5000F7A41C /* Dir.png in Resources */,
 				2E4ACFE919C9B932000E9726 /* Images.xcassets in Resources */,
-				FD2CE6E619EDF9EC00963174 /* SnoopyViewController.xib in Resources */,
+				FD269C4919FF3D6D0057F2DC /* ForthViewController.storyboard in Resources */,
+				FD269C3F19FF3D200057F2DC /* EGOlibraryViewController.xib in Resources */,
 				FD0AFDAA19F4BDC600F7A41C /* sample.pdf in Resources */,
+				FD269C4E19FF3DA20057F2DC /* ReMenuViewController.xib in Resources */,
 				FD0AFD6E19F4BD5000F7A41C /* jpg@2x.png in Resources */,
-				FD0AFE3C19F7466900F7A41C /* FBTableViewController.xib in Resources */,
-				FD0AFDD519F5FF3900F7A41C /* EGOlibraryViewController.xib in Resources */,
 				FD0AFDA519F4BDC600F7A41C /* sample.jpg in Resources */,
+				FD269C4419FF3D400057F2DC /* QuickLookViewController.xib in Resources */,
 				FD0AFDA019F4BDC600F7A41C /* sample.docx in Resources */,
 				FD0AFDAF19F4BDC600F7A41C /* sample.rtfd.zip in Resources */,
 				FD0AFD9B19F4BDC600F7A41C /* sample_3s.xls in Resources */,
 				FD0AFD7219F4BD5000F7A41C /* png@2x.png in Resources */,
+				FD269C7319FF409C0057F2DC /* FirstViewController.xib in Resources */,
 				FD0AFDA119F4BDC600F7A41C /* sample.gif in Resources */,
 				FD0AFDA719F4BDC600F7A41C /* sample.key.zip in Resources */,
-				2E4AD01619C9D8DF000E9726 /* FirstFirstViewController.xib in Resources */,
 				FD0AFDB019F4BDC600F7A41C /* sample.tif in Resources */,
 				FD0AFD7419F4BD5000F7A41C /* Top_Settings.png in Resources */,
+				FD269C6919FF3F630057F2DC /* SnoopyViewController.xib in Resources */,
 				FD0AFDB119F4BDC600F7A41C /* sample.tiff in Resources */,
 				FD0AFDE919F616AF00F7A41C /* grayArrow.png in Resources */,
 				FD0AFD7519F4BD5000F7A41C /* Top_Settings@2x.png in Resources */,
-				FD33E01819FE221200C2A16A /* SectionTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -846,38 +845,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD3E804319E21F5500AB37A6 /* ForAlertDialog.m in Sources */,
-				FD0AFE3B19F7466900F7A41C /* FBTableViewController.m in Sources */,
-				2E4AD01519C9D8DF000E9726 /* FirstFirstViewController.m in Sources */,
-				FD0AFDEF19F61E6900F7A41C /* EGOlibraryTableViewController.m in Sources */,
+				FD269C1619FF39E90057F2DC /* ZeroViewController.m in Sources */,
+				FD269C5419FF3DBC0057F2DC /* NavigationViewController.m in Sources */,
+				FD269C6419FF3F1E0057F2DC /* DeleteView.m in Sources */,
+				FD269C6D19FF404E0057F2DC /* FirstFirstViewController.m in Sources */,
 				2E4ACFE319C9B932000E9726 /* main.m in Sources */,
+				FD269C7919FF41FD0057F2DC /* JASidePanelController.m in Sources */,
 				FD0AFEFF19F7997F00F7A41C /* REMenuItemView.m in Sources */,
-				2E15DD1519E15AE300A29E82 /* ForthViewController.m in Sources */,
+				FD269C4319FF3D400057F2DC /* QuickLookViewController.m in Sources */,
+				FD269C3E19FF3D200057F2DC /* EGOlibraryViewController.m in Sources */,
 				FD0AFEFB19F7997F00F7A41C /* RECommonFunctions.m in Sources */,
 				FD0AFEFC19F7997F00F7A41C /* REMenu.m in Sources */,
-				FD0AFE3719F7460300F7A41C /* UIViewController+JASidePanel.m in Sources */,
-				FD0AFDD419F5FF3900F7A41C /* EGOlibraryViewController.m in Sources */,
-				2E4AD00B19C9BE47000E9726 /* FirstViewController.m in Sources */,
-				FD2CE6EE19EE2B6D00963174 /* FileManageHelp.m in Sources */,
-				FD0AFEEF19F7979100F7A41C /* NavigationViewController.m in Sources */,
-				FDCA7FF419D0305A00EC5CBB /* CreateFolderViewController.m in Sources */,
-				FD33E01D19FE31BB00C2A16A /* OneViewController.m in Sources */,
+				FD269C4D19FF3DA20057F2DC /* ReMenuViewController.m in Sources */,
+				FD269C7A19FF41FD0057F2DC /* UIViewController+JASidePanel.m in Sources */,
+				FD269C1419FF39E90057F2DC /* WebViewController.m in Sources */,
+				FD269C3219FF3CCE0057F2DC /* ViewMasterAppDelegate.m in Sources */,
 				FD0AFEFE19F7997F00F7A41C /* REMenuItem.m in Sources */,
+				FD269C3D19FF3D200057F2DC /* EGOlibraryTableViewController.m in Sources */,
 				FD0AFEFD19F7997F00F7A41C /* REMenuContainerView.m in Sources */,
-				FD3E804619E227D300AB37A6 /* CommonUtil.m in Sources */,
-				FD0F7DA019ECE7CE003CC5B1 /* WebViewController.m in Sources */,
-				FD0AFF0219F8997700F7A41C /* HomeViewController.m in Sources */,
-				FDEDE4CF19DE878300B4151A /* EditViewController.m in Sources */,
-				FD0AFF0819F8A10B00F7A41C /* DeleteView.m in Sources */,
-				FD0AFEEA19F7927100F7A41C /* ReMenuViewController.m in Sources */,
-				2E4AD01019C9D4B7000E9726 /* ZeroViewController.m in Sources */,
+				FD269C2919FF3C6B0057F2DC /* FileManageHelp.m in Sources */,
+				FD269C3619FF3CF80057F2DC /* FBTableViewController.m in Sources */,
+				FD269C7119FF40780057F2DC /* EditViewController.m in Sources */,
+				FD269C2119FF3C130057F2DC /* FirstViewController.m in Sources */,
+				FD269C1B19FF3A720057F2DC /* OneViewController.m in Sources */,
 				FD0AFDE419F616AF00F7A41C /* EGORefreshTableHeaderView.m in Sources */,
-				FD0AFE3619F7460300F7A41C /* JASidePanelController.m in Sources */,
-				FD0AFF0519F89A5500F7A41C /* ActivityView.m in Sources */,
-				FD2CE6E019EDF93300963174 /* QuickLookViewController.m in Sources */,
-				FD33E01719FE221200C2A16A /* SectionTableViewController.m in Sources */,
-				FD2CF2DF19CAF346005DC7C5 /* SnoopyViewController.m in Sources */,
-				2E4ACFE719C9B932000E9726 /* ViewMasterAppDelegate.m in Sources */,
+				FD269C6119FF3F0B0057F2DC /* ActivityView.m in Sources */,
+				FD269C5319FF3DBC0057F2DC /* HomeViewController.m in Sources */,
+				FD269C1F19FF3ABF0057F2DC /* CreateFolderViewController.m in Sources */,
+				FD269C2A19FF3C6B0057F2DC /* ForAlertDialog.m in Sources */,
+				FD269C2819FF3C6B0057F2DC /* CommonUtil.m in Sources */,
+				FD269C2E19FF3CA10057F2DC /* SectionTableViewController.m in Sources */,
+				FD269C6819FF3F630057F2DC /* SnoopyViewController.m in Sources */,
+				FD269C4819FF3D6D0057F2DC /* ForthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -920,15 +919,6 @@
 				FD2CE6E519EDF9D500963174 /* de */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FD2CE6E819EDF9EC00963174 /* SnoopyViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD2CE6E719EDF9EC00963174 /* en */,
-				FD2CE6E919EDF9F200963174 /* ja */,
-			);
-			name = SnoopyViewController.xib;
 			sourceTree = "<group>";
 		};
 		FD9F219219DD12210094C4A5 /* Localizable.strings */ = {

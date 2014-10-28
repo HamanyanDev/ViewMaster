@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E24064E2-BD2E-4B19-A6A3-CCB3E246F9B3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ViewMaster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>60E4E9D4864FC5496ECCD2890A6C51B0D18112FB</key>
+		<string>https://github.com/HamanyanDev/ViewMaster.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ViewMaster.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>60E4E9D4864FC5496ECCD2890A6C51B0D18112FB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/HamanyanDev/ViewMaster.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>60E4E9D4864FC5496ECCD2890A6C51B0D18112FB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>60E4E9D4864FC5496ECCD2890A6C51B0D18112FB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ViewMaster</string>
+		</dict>
+	</array>
+</dict>
+</plist>
