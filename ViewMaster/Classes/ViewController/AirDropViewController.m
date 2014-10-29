@@ -7,6 +7,8 @@
 //
 
 #import "AirDropViewController.h"
+#import "HeartActivity.h"
+
 
 @interface AirDropViewController ()
 @property (weak, nonatomic) IBOutlet UIWebView *AirDropWebView;
@@ -166,6 +168,23 @@
 
 
 - (void)AirdropButtonTap{
+    NSString *text = @"Hello World!";
+    UIImage* image1 = [UIImage imageNamed:@"book.jpg"];
+    UIImage* image2 = [UIImage imageNamed:@"tree.png"];
+    NSArray* actItems = [NSArray arrayWithObjects:text, image1, image2 , nil];
+    
+    
+    
+    HeartActivity* airdrop_1 = [[HeartActivity alloc] init];
+//    SnowActivity* a2 = [[[SnowActivity alloc] init] autorelease];
+    NSArray* myItems = [NSArray arrayWithObjects:airdrop_1, nil];
+    
+    UIActivityViewController *activityView = [[UIActivityViewController alloc] initWithActivityItems:actItems applicationActivities:myItems];
+    
+    [self presentViewController:activityView animated:YES completion:^{
+    }];
+
+    
     
 }
 

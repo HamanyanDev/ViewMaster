@@ -116,6 +116,7 @@
 		FDC61A2719FFA0CE0072A964 /* AirDropTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDC61A2519FFA0CE0072A964 /* AirDropTableView.xib */; };
 		FDC61A3119FFA57E0072A964 /* AirDropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC61A2F19FFA57E0072A964 /* AirDropViewController.m */; };
 		FDC61A3219FFA57E0072A964 /* AirDropViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDC61A3019FFA57E0072A964 /* AirDropViewController.xib */; };
+		FDC61A351A00FD1F0072A964 /* HeartActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC61A341A00FD1F0072A964 /* HeartActivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -287,6 +288,8 @@
 		FDC61A2E19FFA57E0072A964 /* AirDropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirDropViewController.h; path = Classes/ViewController/AirDropViewController.h; sourceTree = "<group>"; };
 		FDC61A2F19FFA57E0072A964 /* AirDropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirDropViewController.m; path = Classes/ViewController/AirDropViewController.m; sourceTree = "<group>"; };
 		FDC61A3019FFA57E0072A964 /* AirDropViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AirDropViewController.xib; path = Classes/ViewController/AirDropViewController.xib; sourceTree = "<group>"; };
+		FDC61A331A00FD1F0072A964 /* HeartActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeartActivity.h; path = Classes/HeartActivity.h; sourceTree = "<group>"; };
+		FDC61A341A00FD1F0072A964 /* HeartActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeartActivity.m; path = Classes/HeartActivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -689,6 +692,8 @@
 				FDC61A2E19FFA57E0072A964 /* AirDropViewController.h */,
 				FDC61A2F19FFA57E0072A964 /* AirDropViewController.m */,
 				FDC61A3019FFA57E0072A964 /* AirDropViewController.xib */,
+				FDC61A331A00FD1F0072A964 /* HeartActivity.h */,
+				FDC61A341A00FD1F0072A964 /* HeartActivity.m */,
 			);
 			name = AirDropMenu;
 			sourceTree = "<group>";
@@ -886,6 +891,7 @@
 				FD269C6119FF3F0B0057F2DC /* ActivityView.m in Sources */,
 				FD269C5319FF3DBC0057F2DC /* HomeViewController.m in Sources */,
 				FD269C1F19FF3ABF0057F2DC /* CreateFolderViewController.m in Sources */,
+				FDC61A351A00FD1F0072A964 /* HeartActivity.m in Sources */,
 				FD269C2A19FF3C6B0057F2DC /* ForAlertDialog.m in Sources */,
 				FD269C2819FF3C6B0057F2DC /* CommonUtil.m in Sources */,
 				FD269C9819FF5BC60057F2DC /* REMenu.m in Sources */,
