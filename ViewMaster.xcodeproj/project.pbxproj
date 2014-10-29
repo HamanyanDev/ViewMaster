@@ -35,7 +35,6 @@
 		FD0AFD9819F4BDC600F7A41C /* bearbrick1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD7719F4BDC600F7A41C /* bearbrick1.jpg */; };
 		FD0AFD9919F4BDC600F7A41C /* bearbrick2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD7819F4BDC600F7A41C /* bearbrick2.jpg */; };
 		FD0AFD9A19F4BDC600F7A41C /* sample_3s.doc in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD7919F4BDC600F7A41C /* sample_3s.doc */; };
-		FD0AFD9B19F4BDC600F7A41C /* sample_3s.xls in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD7A19F4BDC600F7A41C /* sample_3s.xls */; };
 		FD0AFD9C19F4BDC600F7A41C /* sample_pass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD7B19F4BDC600F7A41C /* sample_pass.pdf */; };
 		FD0AFD9D19F4BDC600F7A41C /* sample.broken in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD7C19F4BDC600F7A41C /* sample.broken */; };
 		FD0AFD9E19F4BDC600F7A41C /* sample.csv in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD7D19F4BDC600F7A41C /* sample.csv */; };
@@ -52,7 +51,6 @@
 		FD0AFDA919F4BDC600F7A41C /* sample.pages.zip in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD8819F4BDC600F7A41C /* sample.pages.zip */; };
 		FD0AFDAA19F4BDC600F7A41C /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD8919F4BDC600F7A41C /* sample.pdf */; };
 		FD0AFDAB19F4BDC600F7A41C /* sample.ppt in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD8A19F4BDC600F7A41C /* sample.ppt */; };
-		FD0AFDAC19F4BDC600F7A41C /* sample.pptx in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD8B19F4BDC600F7A41C /* sample.pptx */; };
 		FD0AFDAD19F4BDC600F7A41C /* sample.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD8C19F4BDC600F7A41C /* sample.rtf */; };
 		FD0AFDAE19F4BDC600F7A41C /* sample.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD8D19F4BDC600F7A41C /* sample.rtfd */; };
 		FD0AFDAF19F4BDC600F7A41C /* sample.rtfd.zip in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD8E19F4BDC600F7A41C /* sample.rtfd.zip */; };
@@ -60,9 +58,6 @@
 		FD0AFDB119F4BDC600F7A41C /* sample.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD9019F4BDC600F7A41C /* sample.tiff */; };
 		FD0AFDB219F4BDC600F7A41C /* sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD9119F4BDC600F7A41C /* sample.txt */; };
 		FD0AFDB319F4BDC600F7A41C /* sample.xls in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD9219F4BDC600F7A41C /* sample.xls */; };
-		FD0AFDB419F4BDC600F7A41C /* sample.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD9319F4BDC600F7A41C /* sample.xlsx */; };
-		FD0AFDB519F4BDC600F7A41C /* samplea.numbers in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD9419F4BDC600F7A41C /* samplea.numbers */; };
-		FD0AFDB619F4BDC600F7A41C /* samplea.numbers.zip in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFD9519F4BDC600F7A41C /* samplea.numbers.zip */; };
 		FD0AFDD019F5FD7000F7A41C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0AFDCF19F5FD7000F7A41C /* QuartzCore.framework */; };
 		FD0AFDE419F616AF00F7A41C /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0AFDDA19F616AF00F7A41C /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FD0AFDE519F616AF00F7A41C /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0AFDDC19F616AF00F7A41C /* blackArrow.png */; };
@@ -117,6 +112,10 @@
 		FD269C9B19FF5BC60057F2DC /* REMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD269C9619FF5BC60057F2DC /* REMenuItemView.m */; };
 		FD9F219019DD12210094C4A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD9F219219DD12210094C4A5 /* Localizable.strings */; };
 		FD9F219519DD2B950094C4A5 /* CreateFolderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9F219719DD2B950094C4A5 /* CreateFolderViewController.xib */; };
+		FDC61A2619FFA0CE0072A964 /* AirDropTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC61A2419FFA0CE0072A964 /* AirDropTableView.m */; };
+		FDC61A2719FFA0CE0072A964 /* AirDropTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDC61A2519FFA0CE0072A964 /* AirDropTableView.xib */; };
+		FDC61A3119FFA57E0072A964 /* AirDropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC61A2F19FFA57E0072A964 /* AirDropViewController.m */; };
+		FDC61A3219FFA57E0072A964 /* AirDropViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDC61A3019FFA57E0072A964 /* AirDropViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,7 +160,6 @@
 		FD0AFD7719F4BDC600F7A41C /* bearbrick1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bearbrick1.jpg; path = images/bearbrick1.jpg; sourceTree = "<group>"; };
 		FD0AFD7819F4BDC600F7A41C /* bearbrick2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bearbrick2.jpg; path = images/bearbrick2.jpg; sourceTree = "<group>"; };
 		FD0AFD7919F4BDC600F7A41C /* sample_3s.doc */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample_3s.doc; path = images/sample_3s.doc; sourceTree = "<group>"; };
-		FD0AFD7A19F4BDC600F7A41C /* sample_3s.xls */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample_3s.xls; path = images/sample_3s.xls; sourceTree = "<group>"; };
 		FD0AFD7B19F4BDC600F7A41C /* sample_pass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = sample_pass.pdf; path = images/sample_pass.pdf; sourceTree = "<group>"; };
 		FD0AFD7C19F4BDC600F7A41C /* sample.broken */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample.broken; path = images/sample.broken; sourceTree = "<group>"; };
 		FD0AFD7D19F4BDC600F7A41C /* sample.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sample.csv; path = images/sample.csv; sourceTree = "<group>"; };
@@ -178,7 +176,6 @@
 		FD0AFD8819F4BDC600F7A41C /* sample.pages.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = sample.pages.zip; path = images/sample.pages.zip; sourceTree = "<group>"; };
 		FD0AFD8919F4BDC600F7A41C /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = sample.pdf; path = images/sample.pdf; sourceTree = "<group>"; };
 		FD0AFD8A19F4BDC600F7A41C /* sample.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample.ppt; path = images/sample.ppt; sourceTree = "<group>"; };
-		FD0AFD8B19F4BDC600F7A41C /* sample.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample.pptx; path = images/sample.pptx; sourceTree = "<group>"; };
 		FD0AFD8C19F4BDC600F7A41C /* sample.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = sample.rtf; path = images/sample.rtf; sourceTree = "<group>"; };
 		FD0AFD8D19F4BDC600F7A41C /* sample.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = sample.rtfd; path = images/sample.rtfd; sourceTree = "<group>"; };
 		FD0AFD8E19F4BDC600F7A41C /* sample.rtfd.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = sample.rtfd.zip; path = images/sample.rtfd.zip; sourceTree = "<group>"; };
@@ -186,9 +183,6 @@
 		FD0AFD9019F4BDC600F7A41C /* sample.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = sample.tiff; path = images/sample.tiff; sourceTree = "<group>"; };
 		FD0AFD9119F4BDC600F7A41C /* sample.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sample.txt; path = images/sample.txt; sourceTree = "<group>"; };
 		FD0AFD9219F4BDC600F7A41C /* sample.xls */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample.xls; path = images/sample.xls; sourceTree = "<group>"; };
-		FD0AFD9319F4BDC600F7A41C /* sample.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample.xlsx; path = images/sample.xlsx; sourceTree = "<group>"; };
-		FD0AFD9419F4BDC600F7A41C /* samplea.numbers */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = samplea.numbers; path = images/samplea.numbers; sourceTree = "<group>"; };
-		FD0AFD9519F4BDC600F7A41C /* samplea.numbers.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = samplea.numbers.zip; path = images/samplea.numbers.zip; sourceTree = "<group>"; };
 		FD0AFDCF19F5FD7000F7A41C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FD0AFDD919F616AF00F7A41C /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
 		FD0AFDDA19F616AF00F7A41C /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
@@ -287,6 +281,12 @@
 		FD9F219619DD2B950094C4A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CreateFolderViewController.xib; sourceTree = "<group>"; };
 		FD9F219819DD2B9C0094C4A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/CreateFolderViewController.xib; sourceTree = "<group>"; };
 		FD9F219919DD2BA60094C4A5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CreateFolderViewController.xib; sourceTree = "<group>"; };
+		FDC61A2319FFA0CE0072A964 /* AirDropTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirDropTableView.h; path = Classes/ViewController/AirDropTableView.h; sourceTree = "<group>"; };
+		FDC61A2419FFA0CE0072A964 /* AirDropTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirDropTableView.m; path = Classes/ViewController/AirDropTableView.m; sourceTree = "<group>"; };
+		FDC61A2519FFA0CE0072A964 /* AirDropTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AirDropTableView.xib; path = Classes/ViewController/AirDropTableView.xib; sourceTree = "<group>"; };
+		FDC61A2E19FFA57E0072A964 /* AirDropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirDropViewController.h; path = Classes/ViewController/AirDropViewController.h; sourceTree = "<group>"; };
+		FDC61A2F19FFA57E0072A964 /* AirDropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirDropViewController.m; path = Classes/ViewController/AirDropViewController.m; sourceTree = "<group>"; };
+		FDC61A3019FFA57E0072A964 /* AirDropViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AirDropViewController.xib; path = Classes/ViewController/AirDropViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -621,9 +621,7 @@
 		FD3E804719E227EC00AB37A6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FD269C8B19FF59280057F2DC /* FirstViewController.h */,
-				FD269C2019FF3C130057F2DC /* FirstViewController.m */,
-				FD269C7219FF409C0057F2DC /* FirstViewController.xib */,
+				FDC61A1D19FF988B0072A964 /* FirstView */,
 				FD0AFE6F19F764BF00F7A41C /* WebView */,
 				FD0AFE7019F764DE00F7A41C /* CreateFolderView */,
 				FD0AFE7119F7650200F7A41C /* EditView */,
@@ -633,6 +631,7 @@
 				FD0AFE7519F7658500F7A41C /* FaceBookMenu */,
 				FD0AFEEC19F7927A00F7A41C /* ReMenuView */,
 				FD33E01919FE221800C2A16A /* SectionView */,
+				FDC61A2819FFA0D70072A964 /* AirDropMenu */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -644,7 +643,6 @@
 				FD0AFD7719F4BDC600F7A41C /* bearbrick1.jpg */,
 				FD0AFD7819F4BDC600F7A41C /* bearbrick2.jpg */,
 				FD0AFD7919F4BDC600F7A41C /* sample_3s.doc */,
-				FD0AFD7A19F4BDC600F7A41C /* sample_3s.xls */,
 				FD0AFD7B19F4BDC600F7A41C /* sample_pass.pdf */,
 				FD0AFD7C19F4BDC600F7A41C /* sample.broken */,
 				FD0AFD7D19F4BDC600F7A41C /* sample.csv */,
@@ -661,7 +659,6 @@
 				FD0AFD8819F4BDC600F7A41C /* sample.pages.zip */,
 				FD0AFD8919F4BDC600F7A41C /* sample.pdf */,
 				FD0AFD8A19F4BDC600F7A41C /* sample.ppt */,
-				FD0AFD8B19F4BDC600F7A41C /* sample.pptx */,
 				FD0AFD8C19F4BDC600F7A41C /* sample.rtf */,
 				FD0AFD8D19F4BDC600F7A41C /* sample.rtfd */,
 				FD0AFD8E19F4BDC600F7A41C /* sample.rtfd.zip */,
@@ -669,11 +666,31 @@
 				FD0AFD9019F4BDC600F7A41C /* sample.tiff */,
 				FD0AFD9119F4BDC600F7A41C /* sample.txt */,
 				FD0AFD9219F4BDC600F7A41C /* sample.xls */,
-				FD0AFD9319F4BDC600F7A41C /* sample.xlsx */,
-				FD0AFD9419F4BDC600F7A41C /* samplea.numbers */,
-				FD0AFD9519F4BDC600F7A41C /* samplea.numbers.zip */,
 			);
 			name = ImagePicture;
+			sourceTree = "<group>";
+		};
+		FDC61A1D19FF988B0072A964 /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				FD269C8B19FF59280057F2DC /* FirstViewController.h */,
+				FD269C2019FF3C130057F2DC /* FirstViewController.m */,
+				FD269C7219FF409C0057F2DC /* FirstViewController.xib */,
+			);
+			name = FirstView;
+			sourceTree = "<group>";
+		};
+		FDC61A2819FFA0D70072A964 /* AirDropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FDC61A2319FFA0CE0072A964 /* AirDropTableView.h */,
+				FDC61A2419FFA0CE0072A964 /* AirDropTableView.m */,
+				FDC61A2519FFA0CE0072A964 /* AirDropTableView.xib */,
+				FDC61A2E19FFA57E0072A964 /* AirDropViewController.h */,
+				FDC61A2F19FFA57E0072A964 /* AirDropViewController.m */,
+				FDC61A3019FFA57E0072A964 /* AirDropViewController.xib */,
+			);
+			name = AirDropMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -770,7 +787,6 @@
 				FD0AFD9D19F4BDC600F7A41C /* sample.broken in Resources */,
 				2E4ACFE119C9B932000E9726 /* InfoPlist.strings in Resources */,
 				FD0AFDB219F4BDC600F7A41C /* sample.txt in Resources */,
-				FD0AFDB619F4BDC600F7A41C /* samplea.numbers.zip in Resources */,
 				FD269C3719FF3CF80057F2DC /* FBTableViewController.xib in Resources */,
 				FD0AFDA419F4BDC600F7A41C /* sample.jpeg in Resources */,
 				FD0AFD7319F4BD5000F7A41C /* third@2x.png in Resources */,
@@ -786,13 +802,13 @@
 				FD0AFDE819F616AF00F7A41C /* blueArrow@2x.png in Resources */,
 				FD0AFDEB19F616AF00F7A41C /* whiteArrow.png in Resources */,
 				FD269C1719FF39E90057F2DC /* ZeroViewController.xib in Resources */,
+				FDC61A3219FFA57E0072A964 /* AirDropViewController.xib in Resources */,
 				FD0AFDA919F4BDC600F7A41C /* sample.pages.zip in Resources */,
-				FD0AFDB519F4BDC600F7A41C /* samplea.numbers in Resources */,
 				FD0AFDEA19F616AF00F7A41C /* grayArrow@2x.png in Resources */,
 				FD0AFDA219F4BDC600F7A41C /* sample.html in Resources */,
+				FDC61A2719FFA0CE0072A964 /* AirDropTableView.xib in Resources */,
 				FD9F219019DD12210094C4A5 /* Localizable.strings in Resources */,
 				FD0AFDA819F4BDC600F7A41C /* sample.pages in Resources */,
-				FD0AFDAC19F4BDC600F7A41C /* sample.pptx in Resources */,
 				FD0AFD9C19F4BDC600F7A41C /* sample_pass.pdf in Resources */,
 				FD269C2F19FF3CA10057F2DC /* SectionTableViewController.xib in Resources */,
 				FD9F219519DD2B950094C4A5 /* CreateFolderViewController.xib in Resources */,
@@ -800,7 +816,6 @@
 				FD0AFDA619F4BDC600F7A41C /* sample.key in Resources */,
 				FD0AFD6C19F4BD5000F7A41C /* Dir@2x.png in Resources */,
 				FD0AFDE519F616AF00F7A41C /* blackArrow.png in Resources */,
-				FD0AFDB419F4BDC600F7A41C /* sample.xlsx in Resources */,
 				FD269C1C19FF3A720057F2DC /* OneViewController.xib in Resources */,
 				FD0AFDB319F4BDC600F7A41C /* sample.xls in Resources */,
 				FD0AFDAD19F4BDC600F7A41C /* sample.rtf in Resources */,
@@ -816,7 +831,6 @@
 				FD269C4419FF3D400057F2DC /* QuickLookViewController.xib in Resources */,
 				FD0AFDA019F4BDC600F7A41C /* sample.docx in Resources */,
 				FD0AFDAF19F4BDC600F7A41C /* sample.rtfd.zip in Resources */,
-				FD0AFD9B19F4BDC600F7A41C /* sample_3s.xls in Resources */,
 				FD0AFD7219F4BD5000F7A41C /* png@2x.png in Resources */,
 				FD269C7319FF409C0057F2DC /* FirstViewController.xib in Resources */,
 				FD0AFDA119F4BDC600F7A41C /* sample.gif in Resources */,
@@ -845,9 +859,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC61A3119FFA57E0072A964 /* AirDropViewController.m in Sources */,
 				FD269C1619FF39E90057F2DC /* ZeroViewController.m in Sources */,
 				FD269C9B19FF5BC60057F2DC /* REMenuItemView.m in Sources */,
 				FD269C5419FF3DBC0057F2DC /* NavigationViewController.m in Sources */,
+				FDC61A2619FFA0CE0072A964 /* AirDropTableView.m in Sources */,
 				FD269C9A19FF5BC60057F2DC /* REMenuItem.m in Sources */,
 				FD269C6419FF3F1E0057F2DC /* DeleteView.m in Sources */,
 				FD269C6D19FF404E0057F2DC /* FirstFirstViewController.m in Sources */,

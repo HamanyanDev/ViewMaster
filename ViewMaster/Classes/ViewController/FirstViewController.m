@@ -20,6 +20,7 @@
 #import "HomeViewController.h"
 #import "SectionTableViewController.h"
 #import "OneViewController.h"
+#import "AirDropTableView.h"
 
 //#import "TableEditTableViewController.h"
 
@@ -34,8 +35,8 @@
     self = [super initWithNibName:nil bundle:nil];
         if (self) {
         self.title = H_TITLE_FIRST;
-        
-        _items = [NSMutableArray arrayWithCapacity:15];
+
+        _items = [NSMutableArray arrayWithCapacity:25];
         
         [_items addObject:@"WebViewController_A"];
         [_items addObject:@"WebViewController_B"];
@@ -47,6 +48,7 @@
         [_items addObject:@"FBTableViewController"];
         [_items addObject:@"REMenuViewController"];
         [_items addObject:@"SectionTableViewController"];
+        [_items addObject:@"AirDropMenuViewController"];
             
         [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:1.0 green:0.09 blue:0.27 alpha:1.000];
         
@@ -169,6 +171,9 @@
     } else if (indexPath.row == 9){
         SectionTableViewController *section = [[SectionTableViewController alloc] init];
         [self.navigationController pushViewController:section animated:YES];
+    } else if (indexPath.row == 10){
+        AirDropTableView *airdrop = [[AirDropTableView alloc] init];
+        [self.navigationController pushViewController:airdrop animated:YES];
     }
 }
 
